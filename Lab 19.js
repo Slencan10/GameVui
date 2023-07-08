@@ -14,7 +14,6 @@ document.querySelector('.check').addEventListener('click',
         document.querySelector('.message').textContent = 'Bạn đã nhập đúng số'
         document.querySelector('.score').textContent = score
         document.querySelector('body').style.backgroundColor = '#60b347'
-        document.querySelector('body').style.width = '30rem'
         if(score > highscore){
             highscore = score;
             document.querySelector('.highscore').textContent = highscore;
